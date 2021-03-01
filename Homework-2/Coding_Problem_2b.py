@@ -56,7 +56,6 @@ def extract_date(date):
 
 # opening, reading, and closing the .txt document.
 file = open('inputDates.txt', 'r')
-file_dates = []
 file_dates = file.readlines()
 file.close()
 
